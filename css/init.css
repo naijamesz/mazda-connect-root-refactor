@@ -1,0 +1,83 @@
+.xss-wrapper {
+  background: rgba(255, 255, 255, 0.911);
+  border: 0.1rem solid;
+  z-index: 99999;
+  position: fixed;
+  top: 1.575rem;
+  left: 1.575rem;
+  width: 25rem;
+  height: 25rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  display: flex;
+  font-size: 1rem;
+  color: black;
+  border-color: black;
+}
+
+.xss-collapse {
+  display: none;
+}
+
+.xss-toggle {
+  position: fixed;
+  background: #5faf8d;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 0.5rem;
+  z-index: 999999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 26.5rem;
+  left: 0.75rem;
+}
+
+.xss-actions {
+  font-size: 1.25rem;
+  display: flex;
+  flex: 1 0;
+  flex-direction: column;
+  padding-right: 0.5rem;
+}
+
+.xss-view {
+  display: flex;
+  flex: 1 0;
+  flex-direction: column;
+  border-left: 0.05rem solid;
+  padding: 0 0.25rem;
+  overflow: auto;
+}
+
+.xss-action {
+  display: block;
+  border: 0.05rem solid;
+  margin: 0.25rem 0px;
+  padding: 6px;
+  border-radius: 0.25rem;
+}
+
+.xss-ui-logger {
+  overflow: auto;
+  flex-direction: column;
+  opacity: 0.5;
+  pointer-events: none;
+  top: inherit;
+  left: inherit;
+  bottom: 1.25rem;
+  right: 1.25rem;
+}
+
+.xss-ui-logger_error {
+  color: red;
+  font-weight: bold;
+}
+
+.xss-ui-logger_warn {
+  color: orange;
+}
+
+.xss-ui-logger_info {
+  color: blue;
+}
